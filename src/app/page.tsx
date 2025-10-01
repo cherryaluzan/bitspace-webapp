@@ -53,7 +53,8 @@ export default function Page() {
             >
               <h2 className="font-semibold text-gray-800">User ID: {user.id}</h2>
               <p className="text-sm text-gray-600">
-                Name: {user.firstName} {user.lastName || ""}
+                The Name: {user.firstName} {user.lastName || ""}
+               
               </p>
               {user.displayName && (
                 <p className="text-sm text-gray-600">
